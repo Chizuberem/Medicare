@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 1s ease;
+    box-sizing: border-box;
+}
+
+
+#form{
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.7)) ; */
+    /* background-image: linear-gradient(  rgba(255, 255, 255, 1), rgba(0, 0, 255, 0.8)); */
+    box-shadow: 0px 5px 10px black;
+    height: 730px;
+    background-color:white;
+}
+#up1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/img/insurance.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* body{
+    background-color:rgb(40, 100, 167)
+} */
+#body{
+    font-size: 20px;
+    text-align: center;
+}
+
+#up{
+    margin-top: 180px;
+}
+
+@media screen and (max-width: 700px) {
+    #form{
+       height: 1150px;
+    }
+    #pay1{
+        font-size: 20px;
+    }
+}
+
+/* FOOTER */
+#footer{
+    background-image: linear-gradient(rgba(33, 37, 41, 1), rgba(41, 171, 225));
+}
+#foot1{
+    position: relative;
+    right: 0px; 
+}
+#foot2{
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+#foot3{
+    position: relative;
+    top: 50px;
+}
+
+@media screen and (max-width: 700px){
+    
+    #blogimg{
+        width: 100px;
+        background-color: red;
+    }
+    #foot1{
+        bottom: 0px;
+    }
+    #foot2{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    #foot3{
+        top: 10px;
+    }
+}

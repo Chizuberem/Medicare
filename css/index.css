@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s ease;
+}
+body{
+    padding: 0px;
+}
+.navbar{
+    background-color: #fff;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #000;
+    margin: 5px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgb(41, 171, 226);
+}
+.navbar-nav .nav-item .active{
+    color: rgb(41, 171, 226);
+    
+
+}
+#scrollTopBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    z-index: 2222222;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(41, 171, 226);
+    border-radius: 50%;
+}
+#scrollTopBtn a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-button{
+    padding: 10px;
+    background: transparent;
+    color: #000;
+    border: none;
+    font-size: 2rem;
+}
+
+
+#nav .btn-getstarted{
+    background-color: rgb(41, 171, 226);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-left: 30px;
+    border-radius: 40px;
+    transition: 0.3s;
+  }
+
+  
+#nav .btn-getstarted:hover{
+    color: rgb(41, 171, 226);
+    background-color: white;
+}
+  
+.logo-nav >p{
+    position: absolute; 
+    top: 60px; 
+    left: 105px; 
+    font-weight: 500;
+}
+
+  
+  @media screen and (max-width: 700px){
+    #nav .btn-getstarted {
+     position: absolute;
+     top: 50px;
+     left: 130px;
+     padding: 5px 10px;
+  
+    }
+    .logo-nav >p{
+        left: 15px;
+        font-size: 15px;
+    }
+}
+
+.img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/childnddoc.homepg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#toptext{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+#t1{
+    font-size: 45px;
+}
+    
+#t2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#t3{
+    font-size: 25px;
+    
+}
+.btn1{
+    margin-right: 50px;
+}
+
+.btn{
+   width: 200px;
+   height: 60px;
+   padding: 100px;
+   padding-bottom: 100px;
+   
+}
+.btn >a{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#flex{
+    position: absolute;
+    top: 600px;
+    /* left: 100px; */
+}
+       
+#flex1{
+   border-radius: 10px;
+    box-shadow: 4px 2px 5px rgb(41, 171, 226);
+    padding:15px;
+    
+}
+
+/* Media query for top*/
+@media screen and (max-width: 700px){
+ 
+     .navbar-toggler-icon{
+        color: white;
+     }
+     .img{
+        width: 100%;
+        height: 60vh;
+     }
+     #toptext{
+        position: absolute;
+        top: 150px;
+    }
+    #t1{
+        font-size: 20px;
+        font-weight: 100px;
+    }
+    #t2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #t3{
+        font-size: 15px;
+    }
+    .btn{
+      width: 100px;
+      height: 40px;
+    }
+    .btn >a{
+        font-size: 15px;
+    }
+    #flex{
+        position: relative;
+        top: 0px;
+        /* left: 15px; */
+    }
+    #flex1{
+        margin-top: 5px;
+    }
+    }
+    /* TOP END */
+
+
+    /* ABOUT */
+    #abt{
+        position: relative;
+        top: 200px;
+    }
+    #abttext{
+        width: 500px;
+         height: auto; 
+      
+    }
+
+    #more{
+        position: relative;
+        left: 100px;
+        top: -10px;
+    }
+    #abtpic{
+        width: 500px;
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+
+    /* Media query for about */
+@media screen and (max-width: 700px){
+    #abt{
+        position: relative;
+        top: 15px;
+    }
+    #sign{
+        width: 120px;
+    }
+    #abtpic{
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 300px;
+}
+    #more{
+        position: relative;
+        left: 20px;
+}
+}
+/* end of about */
+
+/* COUNTER */
+#yo{
+    background-image: linear-gradient(  rgba(255, 255, 255, 1), rgba(19, 112, 181, 1));;
+    position: relative;
+    top: 150px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+
+}
+
+/* APPOINTMENT */
+#app{
+    margin-top: 250px;
+    /* background-image: linear-gradient(  rgba(255, 255, 255, 1), rgba(41, 171, 226, 0.9) ); */
+}
+
+/* SERVICES */
+.services:hover{
+    /* box-shadow: 7px 4px 5px rgb(41, 171, 226);  */
+    box-shadow: 7px 4px 5px white; 
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom:20px;
+}
+#services{
+   position: relative;
+   top: 160px;
+}
+#icons{
+    position: relative;
+     left: 150px;
+}
+
+
+   /* Media query for services */
+   @media screen and (max-width: 700px){
+    #services{
+        position: relative;
+        top: 10px;
+    }
+    #icons{
+        position: relative;
+        left:90px
+    }
+    #app{
+        margin-top: 50px;
+    }
+    .book{
+        height: 70px;
+    }
+    #yo{
+        top: 0px;
+        color: rgba(0,0,0,0.8);
+    }
+}
+/* end of services */
+
+/* back to top btn */
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i {
+    font-size: 28px;
+    color: rgb(41, 171, 226);
+    line-height: 0;
+  }
+  
+  .back-to-top:hover {
+    background: black;
+    color: #fff;
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+/* CAROUSEL */
+
+.carousel-inner{
+    height: 300px;
+}
+#caroimg{
+    position: relative;
+    top: 110px;
+    
+}
+.carousel-caption{
+    position: relative;
+    top: 0px;
+}
+
+/* FOOTER */
+#footer{
+    background-image: linear-gradient(rgba(33, 37, 41, 1), rgba(41, 171, 225));
+}
+#foot1{
+    position: relative;
+    right: 0px; 
+}
+#foot2{
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+#foot3{
+    position: relative;
+    top: 50px;
+}
+
+@media screen and (max-width: 700px){
+    .carousel-caption{
+      position: relative;
+      top: 10px;
+    }
+    #caroimg{
+        position: relative;
+        top: 250px;
+        left: 10px;
+    }
+    .carousel-inner{
+        height: 450px;
+    }
+    
+    #blogimg{
+        width: 100px;
+        background-color: red;
+    }
+    #foot1{
+        bottom: 0px;
+    }
+    #foot2{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    #foot3{
+        top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

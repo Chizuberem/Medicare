@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: 1s ease;
+}
+
+#bg{
+    height: 95vh;
+    width: 100%;
+    background-image: url(../assets/img/contactus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#contact{
+    position: absolute;
+    color: white;
+    /* z-index: 1; */
+    width: 500px;
+    top: 150px;
+    left: 100px;
+    
+}
+#nav{
+    width: 90%;
+}
+#nav .navbar-nav .nav-link{
+    color: #fff;
+}
+#nav .navbar-nav .nav-link {
+    margin: 10px;
+}
+#nav .navbar-nav .nav-link:hover{
+    color: rgb(41, 171, 226);
+}
+#nav .navbar-nav .active{
+    color: rgb(41, 171, 226);
+    background-color: white;
+
+}
+
+
+#nav .btn-getstarted{
+    background-color: rgb(41, 171, 226);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-left: 30px;
+    border-radius: 40px;
+    transition: 0.3s;
+  }
+
+  
+#nav .btn-getstarted:hover{
+    color: rgb(41, 171, 226);
+    background-color: white;
+}
+  
+
+  
+  @media screen and (max-width: 700px){
+    #nav .btn-getstarted {
+     position: absolute;
+     top: 50px;
+     left: 130px;
+     padding: 5px 10px;
+  
+    }
+}
+
+
+
+.single-icon i {
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    line-height: 56px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    color: #3ec1d5;
+  }
+  
+  .single-icon p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+
+@media screen and (max-width:700px) {
+    #bg{
+        width: 100%;
+        /* height: 50vh; */
+        background-size: cover;
+        background-position: 65% 40%;
+        margin-top: 128px;
+        }
+        #bgafter{
+            width: 100%;
+            height: 140vh;
+            background-color: rgb(24,37,45);
+            background-image: linear-gradient(to right, rgba(4,15,21), rgb(23, 38, 45));
+            /* position: relative; */
+            top: -5px;
+            /* display: block; */
+        }
+        #nav{
+            /* background-color: rgb(24,37,45); */
+            width: 100%;
+            background-image: linear-gradient(to right, rgba(4,15,21), rgb(23, 38, 45));
+        }
+        #contact{
+            width: 240px;
+            left: 20px;
+            /* background-color: red; */
+        }
+        
+}
+
+
+/* FOOTER */
+#footer{
+    background-image: linear-gradient(rgba(33, 37, 41, 1), rgba(41, 171, 225));
+    /* position: relative;
+    top: 400px; */
+}
+#foot1{
+    position: relative;
+    right: 0px;
+}
+#foot2{
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+#foot3{
+    position: relative;
+    top: 50px;
+}
+/* #footz{
+    position: relative;
+    top: 400px;
+} */
+
+@media screen and (max-width: 700px){
+    /* #footer{
+        position: relative;
+        top: 600px;
+    } */
+    #foot1{
+        bottom: 0px;
+    }
+    #foot2{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    #foot3{
+        top: 10px;
+    }
+    /* #footz{
+        position: relative;
+        top: 550px;
+    } */
+}

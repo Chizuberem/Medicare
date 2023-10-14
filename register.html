@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MediCare</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/boxicons/css/boxicons.min.css">
+
+    <link href="assets/img/logojump.jpg" rel="icon">
+
+</head>
+<body>
+    <nav id="nav" class="container-fluid navbar navbar-expand-md navbar-light fixed-top" style="padding-left: 40px;  z-index: 1; box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);">
+        <a href="" class="navbar-brand"><img src="assets/img/logomedblue.png" style=" width: 103px;  " alt="">
+            <p style="font-weight: 500; font-family: cursive; color: rgb(41, 171, 226); position: absolute; left: 32px; top: 80px;">MEDI CARE</p></a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav" style="color: white;">
+            <span class="navbar-toggler-icon" ></span>
+        </button>
+
+    </nav>
+
+    <main id="main">
+        <section class="container" style="margin-top: 11%;">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Create an Account</h3>
+                    <p>fill the form below to sign up.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="">Name</label>
+                            <input type="text" class="form-control" name="name" required id="">
+                        </div><br>
+                        <div class="form-group">
+                            <label for="">Phone No</label>
+                            <input type="text" class="form-control" name="phone" required id="">
+                        </div><br>
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="email" class="form-control" name="email" required id="">
+                        </div><br>
+                        <div class="form-group">
+                            <label for="">Password</label>
+                            <input type="password" class="form-control" name="password" required id="">
+                        </div><br>
+                        <div class="form-group">
+                            <label for="">Facebook Link</label>
+                            <input type="text" class="form-control" name="fac" required id="">
+                        </div>
+                    
+                        <div class="form-group mt-3">
+                            <button class="btn" style="background-color: rgb(41, 171, 226); font-weight: 700;">submit</button>
+                        </div>
+                    </form>
+                    <div>
+                        <p>already a member? <a href="login.html" class="text-primary">click Here</a> to login</p>
+                    </div><br><br>
+                </div>
+            </div>
+        </section>
+      </main><!-- End #main -->
+
+
+
+      <script>
+        //USING ONSCROLL FUNCTION
+        var mynav = document.getElementById("nav");
+   
+   window.onscroll = function() {scrollFunction()};
+   
+   function scrollFunction(){
+       if(document.documentElement.scrollTop > 10){
+           mynav.style.background = "rgba(0, 0, 0, 0.95)";
+           mynav.style.width = "100%"
+           mynav.style.color = "white"
+       }
+       else{
+           mynav.style.background = "transparent";
+       }
+   }
+   </script>
+
+
+
+</body>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

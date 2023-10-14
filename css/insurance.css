@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s ease-in-out;
+}
+.navbar-nav>li :hover{
+    font-size: 15px;
+    color: red;
+    font-weight: 500;
+    
+}
+
+#topimg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../assets/img/emergencyward.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+#topimg>p{
+    position: absolute;
+    top: 250px;
+    font-size: 25px;
+    color: white;
+    /* left: 400px; */
+    right: 0px;
+    width: 500px;
+    /* background-color: red; */
+}
+#intro{
+    font-size: 20px;
+}
+
+
+#policy{
+    /* background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(41, 171, 226)); */
+    border-radius: 3px;
+    padding: 40px;
+   
+}
+#policy >h6{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    #img{
+        height: 400px;  
+        /* margin-top: 70px; */
+      } 
+}
+
+@media screen and (max-width: 700px) {
+    #topimg>p{
+        position: absolute;
+        font-size: 18px;
+        /* left: 150px; */
+        right: 0px;
+        width: 200px;
+    }
+    #policy{
+        padding: 20px;
+    }
+    #img{
+      height: 400px;  
+    } 
+    #policy>h6{
+        font-size: 18px;
+    }
+    #intro{
+        font-size: medium;
+    }
+}
+
+#family{
+    background-image: linear-gradient(  rgb(246, 249, 250), rgb(41, 171, 226) );
+    height: 440px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.line::after{
+        content: "";
+        display: block;
+        width: 610px;
+        height: 2px;
+        position: relative;
+        background-color: #303030;
+        /* bottom: 0px; */
+        top: 10px;
+        left:  20px;
+       
+}
+@media screen and (max-width: 700px) {
+    #family{
+        height: 820px;
+    }
+    .line::after{
+        width: 300px;
+    }
+    /* #in{
+        width: 340px;
+        background-color: red;
+    } */
+    
+}
+
+/* FOOTER */
+#footer{
+    background-image: linear-gradient(rgba(33, 37, 41, 1), rgba(41, 171, 225));
+}
+#foot1{
+    position: relative;
+    right: 0px; 
+}
+#foot2{
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+#foot3{
+    position: relative;
+    top: 50px;
+}
+
+
+@media screen and (max-width: 700px){
+    #blogimg{
+        width: 100px;
+        background-color: red;
+    }
+    #foot1{
+        bottom: 0px;
+    }
+    #foot2{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    #foot3{
+        top: 10px;
+    }
+}

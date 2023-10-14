@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MediCare</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <link rel="stylesheet" href="css/dept.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/boxicons/css/boxicons.min.css">
+
+    <link href="assets/img/logojump.jpg" rel="icon">
+
+</head>
+
+<body>
+    <nav id="mynav" class="navbar  fixed-top">
+        <div class="container">
+            <a href="" class="navbar-brand">
+                <div class="logo-nav container">
+                    <img src="assets/img/logomedblue.png" style=" width: 70px;  " alt="">
+                    <p style=" font-family: cursive; color: rgb(41, 171, 226); ">MEDI CARE</p>
+                </div>
+                
+                </a>
+          <button class="nav-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <img src="assets/img/logomedblue.png" style=" width: 70px; margin-left: 30px;" alt="">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <hr style="background-color: black;">
+            <div> <p style="font-weight: 500; font-family: cursive; color: rgb(41, 171, 226); position: absolute; left: 32px; top: 80px;">MEDI CARE</p></a></div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="dept.html">DEPARTMENTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="appointment.html">APPOINTMENT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">CONTACT US</a>
+                  </li>
+               
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <button id="scrollTopBtn">
+        <a href="#top"><i class="fa-solid fa-arrow-up"></i></a> 
+     </button>
+
+    <div id="topimg">
+        <p><a style="text-decoration: none; font-weight: 700; color: rgb(41, 171, 226)" href="../public/homeloader.html">Home</a> <span>----</span><strong> Departments</strong></p>
+    </div>
+
+    <div class="container mt-3">
+       <h3  style="text-align: center; font-family:cursive;">ALL MEDICAL SERVICES IN ONE PLACE <br>@<br> <strong style="color: rgb(41, 171, 226);">MEDI CARE</strong><br>Specialist Hospital/Clinic</h3>  
+       <div class="row">
+        <div class="col-sm-6 col-md-3">
+            <img class="img-fluid" src="assets/img/dentist2.jpg" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <img id="pic2" src="assets/img/opthalmology-7.jpg" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <img id="pic3" class="img-fluid" src="assets/img/gynecologist.jpg" alt="">
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <img id="pic2" src="assets/img/xraydoc.jpg" alt="">
+        </div>
+       </div>
+    </div>
+
+     <!-- BOOTSTRAP ACCORDION -->
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">         
+                <div class="accordion" id="accordionparent">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                <span style="font-weight: 700; color: black; color: black;">CARDIOLOGY</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionparent">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <img id="radio" src="assets/img/cardio.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12" id="text">
+                                        Cardiology is a medical specialty and a branch of internal medicine concerned with disorders of the heart. It deals with the diagnosis and treatment of such conditions as congenital heart defects, coronary artery disease, electrophysiology, heart failure and valvular heart disease.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                <span style="font-weight: 700; color: black;">PEDIATRICS</span>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionparent">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <img id="radio" src="assets/img/pedia.webp" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12" id="text">
+                                        Pediatrics is the branch of medicine dealing with the health and medical care of infants, children, and adolescents from birth up to the age of 18. The word “paediatrics” means “healer of children”; they are derived from two Greek words: (pais = child) and (iatros = doctor or healer).
+                                        <br><br>
+                                        A paediatrician is a child's physician who provides not only medical care for children who are acutely or chronically ill but also preventive health services for healthy children.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                <span style="font-weight: 700; color: black;">OPTHAMOLOGY</span>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionparent">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <img id="radio" src="assets/img/eyedoc.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12" id="text">
+                                        Ophthalmology is the specialized field of medicine that focuses on the health of the eye. It includes the anatomy, physiology and diseases that may affect the eye. Historically, the science of ophthalmology encompassed all aspects of visual function, both in health and in illness.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                <span style="font-weight: 700; color: black;" >ORTHOPEDICS</span>
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionparent">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <img id="radio" src="assets/img/bone.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12" id="text">
+                                        Orthopedic surgery or orthopedics, is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopedic surgeons use both surgical and nonsurgical means to treat musculoskeletal trauma, spine diseases, sports injuries, degenerative diseases, infections, tumors, and congenital disorders
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                                <span style="font-weight: 700; color: black;" >SURGERY</span>
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionparent">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <img id="radio" src="assets/img/surgeon.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12" id="text">
+                                        Surgery is a medical specialty that uses manual and/or instrumental techniques to physically reach into a subject's body in order to investigate or treat pathological conditions such as a disease or injury, to alter bodily functions, to improve appearance, or to remove/replace unwanted tissues or foreign bodies.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseSix">
+                                <span style="font-weight: 700; color: black;" >OBSTETRICS & GYNECOLOGY</span>
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionparent">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <img id="radio" src="assets/img/gyno.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12" id="text">
+                                        A branch of medicine that specializes in the care of women during pregnancy and childbirth and in the diagnosis and treatment of diseases of the female reproductive organs. It also specializes in other women's health issues, such as menopause, hormone problems, contraception (birth control), and infertility.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                                <span style="font-weight: 700; color: black;" >RADIOLOGY</span>
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionparent">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <img id="radio" src="assets/img/radio.png" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12" id="text">
+                                        Radiology is a branch of medicine that uses imaging technology to diagnose and treat disease. Radiology may be divided into two different areas, diagnostic radiology and interventional radiology. Doctors who specialize in radiology are called radiologists.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseEight">
+                                <span style="font-weight: 700; color: black;" >DERMATOLOGY</span>
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionparent">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <img id="radio" src="assets/img/Dermatologist.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12" id="text">
+                                        Dermatologists are medical doctors who specialize in skin, hair and nails. Dermatologists also handle cosmetic disorders, like hair loss and scars. Your dermatologist will examine you, order lab tests, make a diagnosis and treat your condition with medication or a procedure. <br><br>
+                                        It is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A dermatologist is a specialist medical doctor who manages diseases related to skin, hair, nails, and some cosmetic problems.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item ">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                                <span style="font-weight: 700; color: black;">PHARMACY</span>
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionparent">
+                            <div class="accordion-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <img id="radio" src="assets/img/pharmacy-shop.webp"  alt="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12" id="text">
+                                        Pharmacy, the science and art concerned with the preparation and standardization of drugs. Its scope includes the cultivation of plants that are used as drugs, the synthesis of chemical compounds of medicinal value, and the analysis of medicinal agents. Pharmacists are responsible for the preparation of the dosage forms of drugs, such as tablets, capsules, and sterile solutions for injection.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- end of accordion -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark mt-5 p-4">
+        <h5 style="text-align: center;font-weight: 700; color: white;">MEET OUR ADMINISTRATIVE TEAM</h5>
+        <h2 style="text-align: center;font-family: cursive;font-weight: 700; color:rgb(41, 171, 226);">Your Safety Is Our Concern</h2>
+        <p style="font-size: 45px; text-align: center; color:white;"><i class="fa-sharp fa-solid fa-heart-pulse"></i></p>
+
+        <div class="row" style="text-align: center;">
+            <div class="col-md-3 col-sm-6" style="color: white;">
+                <img src="assets/img/maledoc.jpg" class="img-fluid" alt="">
+                <h6>DR. OBINNA EMEH <br>Clinical Manager</h6>
+
+            </div>
+
+            <div class="col-md-3 col-sm-6" style="color: white;">
+                <img src="assets/img/maledoc2.jpg" class="img-fluid" alt="">
+                <h6>DR. JOHNSON IKENNA <br>Healthcare Chief Executive Officer</h6>
+                
+            </div>
+
+            <div class="col-md-3 col-sm-6" style="color: white;">
+                <img id="doc3" src="assets/img/docs5.jpg" class="img-fluid" alt="">
+                <h6>DR. DAVIDSON MUSA & ELDER. MRS. FOLAKE AJEH <br>Head & Assistant Department Directors</h6>
+            </div>
+
+            <div class="col-md-3 col-sm-6" style="color: white;">
+                <img src="assets/img/doc1.jpg" class="img-fluid" alt="">
+                <h6>DR. SOLOMON AKIN <br>General Consultant</h6>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="footer" class="container-fluid  mt-"  style="padding-left: 25px;">
+        <div class="row">
+            <div id="foot1" class="col-sm-12 col-md-3">
+                <a href="" class="navbar-brand"><img src="assets/img/logomedblue.png" style=" margin-left: 8px; width: 103px; " alt="">
+                    <p style="font-weight: 800; font-family: cursive; color: rgb(41, 171, 226); position: relative;  bottom: 30px; ">MEDI CARE</p></a> 
+                    <p style="color: beige; width: 300px; position: relative; bottom: 60px;">Our Clinic has grown to provide a world class facility for the clinic advanced restorative. <br> 
+
+                        We are among the most qualified implant providers in the AUS with over 20 years of quality training and experience.</p> <br>
+
+                        <p style="width: 300px; position: relative; bottom: 70px;">
+                        <i style="color: beige; border: 1px solid white;padding: 8px; border-radius: 50%; margin-right: 30px;" class="fa-brands fa-facebook"></i>
+                        <i style="color: beige; border: 1px solid white;padding: 8px; border-radius: 50%; margin-right: 30px;" class="fa-brands fa-twitter"></i>
+                        <i style="color: beige; border: 1px solid white;padding: 8px; border-radius: 50%; margin-right: 30px;" class="fa-brands fa-instagram"></i>
+                        <i style="color: beige; border: 1px solid white;padding: 8px; border-radius: 50%; margin-right: 30px;" class="fa-sharp fa-solid fa-envelope"></i>
+                        </p>
+            </div>
+
+            <div id="foot2" class="col-sm-12 col-md-3" >
+                <p id="line" style="font-weight: 900; font-size: large; font-family: cursive; color: beige;">Departments</p>
+              
+                    <a style="text-decoration: none; color: beige; font-size: 18px;" href=""><span style="font-weight: 700;">+</span> Surgery & Radiology</a></li><br>
+                    <a style="text-decoration: none; color: beige; font-size: 18px;" href=""><span style="font-weight: 700;">+</span> Family Medicine</a><br>
+                    <a style="text-decoration: none; color: beige; font-size: 18px;" href=""><span style="font-weight: 700;">+</span> Women's Health</a><br>
+                    <a style="text-decoration: none; color: beige; font-size: 18px;" href=""><span style="font-weight: 700;">+</span> Optician</a><br>
+                    <a style="text-decoration: none; color: beige; font-size: 18px;" href=""><span style="font-weight: 700;">+</span> Pediatrics</a><br>
+                    <a style="text-decoration: none; color: beige;  font-size: 18px;" href=""><span style="font-weight: 700;">+</span> Dermatology</a><br>
+                
+            </div>
+
+            <div id="foot3" class="col-sm-12 col-md-3">
+                <p id="line" style="font-weight: 900; font-size: large; font-family: cursive; color: beige;">Latest News</p>
+
+                    <div style="display: flex;">
+                        <a href=""> <img style="width: 50px;height: 50px; display: inline-block;" src="assets/img/surgeon.jpg" alt=""></a>
+                        <a href="" style=" text-decoration: none; position: relative; bottom: 10px; margin-left: 15px; color: beige;font-weight: 500;">Integrative Medicine & Cancer Treatment
+                            <p style="font-weight: 200;" >January 11, 2023</p>
+                        </a>
+                    </div>
+                
+                    <div style="display: flex;">
+                        <a href=""> <img style="width: 50px;height: 50px; display: inline-block;" src="assets/img/blackdochomepg.jpg" alt=""></a>
+                        <a href="" style=" text-decoration: none; position: relative; bottom: 10px; margin-left: 15px; color: beige;font-weight: 500;">Achieving Better Health Care Time
+                            <p style="font-weight: 200;" >March 21, 2023</p>
+                        </a>
+                    </div>
+
+                    <div style="display: flex;">
+                        <a href=""> <img style="width: 50px;height: 50px; display: inline-block;" src="assets/img/eyedoc.jpg" alt=""></a>
+                        <a href="" style=" text-decoration: none; position: relative; bottom: 10px; margin-left: 15px; color: beige;font-weight: 500;">Great Health Care For Patients
+                            <p style="font-weight: 200;" >April 07, 2023</p>
+                        </a>
+                    </div>
+            </div>
+
+            <div id="foot3" class="col-sm-12 col-md-3">
+                <p id="line" style="font-weight: 900; font-size: large; font-family: cursive; color: beige;">Contact Us</p>
+
+                    <span style="display: flex;">
+                        <i style="display: inline-block;color: beige; font-size: 20px;" class="fa-solid fa-location-dot"></i>
+                        <p style="color: beige; margin-left: 15px; position: relative; bottom: 10px;">2130 Fulton Street WorldBank
+                            CA 94117-1080 Nigeria</p>
+                        </span>
+
+                    <span style="display: flex;">
+                        <i style="display: inline-block;color: beige; font-size: 20px;" class="fa-solid fa-phone"></i>
+                        <p style="color: beige; margin-left: 15px; position: relative; bottom: 10px;">Mon to Fri : 08:30 - 18:00
+                            +234 803 403 1260</p>
+                        </span>
+
+                    <span style="display: flex;">
+                        <i style="display: inline-block;color: beige; font-size: 20px;" class="fa-sharp fa-solid fa-envelope"></i>
+                        <p style="color: beige; margin-left: 15px; position: relative; bottom: 10px;">Do you have a Question? <a href style="text-decoration: none; font-weight: 500 ; color: black;">medicareclinic@gmail.com</a></p>
+                    </span>
+
+                    <span style="display: flex;">
+                        <i style="display: inline-block;color: beige; font-size: 20px;" class="fa-regular fa-clock"></i>
+                        <p style="color: beige; margin-left: 15px; position: relative; bottom: 10px;">Mon - Sat 8.00 - 18.00
+                            Sunday CLOSED</p>
+                    </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="footz" class="container-fluid  pb-1" style="background-color: rgb(41, 171, 226);">
+       <p style="text-align: center;">Copyright © 2023 APTECH INTL. <br> Designed by <span>Chizuberem</span> <br> All Rights Reserved.</p>
+
+    </div>
+
+
+
+
+
+
+
+    <script>
+        //USING ONSCROLL FUNCTION
+        var mynav = document.getElementById("nav");
+   
+   window.onscroll = function() {scrollFunction()};
+   
+   function scrollFunction(){
+       if(document.documentElement.scrollTop > 100){
+           mynav.style.background = "rgba(0, 0, 0, 0.95)";
+           mynav.style.width = "100%"
+           mynav.style.color = "white"
+       }
+       else{
+           mynav.style.background = "transparent";
+       }
+   }
+   </script>
+    
+    
+</body>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html
